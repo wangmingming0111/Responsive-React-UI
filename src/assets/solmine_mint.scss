@@ -1,0 +1,1145 @@
+/* + -------------------------------------------- +
+		Mint Group Style
++ -------------------------------------------- + */
+#mint_home {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	padding: 1px;
+	margin: 0px;
+
+	// background-color: red;
+}
+
+#mint_back {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+  margin: 0px;
+  padding: 0px;
+	z-index: 0;
+
+	padding: 0px;
+	margin: 0px;
+
+  // background-color: red;
+
+	#mint_back_image {
+		width: 100%;
+		height: 100%;
+	
+		@media only screen and (max-width: 599px) {
+			width: 400%;
+			margin-left: -150%;
+		}
+	}
+}
+
+
+#mint_wrapper {
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// align-items: center;
+
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+
+	// margin-top: 68px; // origin value
+	margin-top: 100px; // for client
+	@media only screen and (max-width: 599px) {
+    margin-top: 80px; // for client
+	}
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* + -------------------------------------------- +
+		Mint / Logo Group Style
++ -------------------------------------------- + */
+
+#mint_wrapper #mint_logo_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+
+	// border-style: solid;
+	// border-width: 3px;
+	// border-color: white;
+	// border-radius: 0px;
+
+	#mint_logo_container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	
+		width: 100%;
+	
+		// border-style: solid;
+		// border-width: 2px;
+		// border-color: blue;
+		// border-radius: 10px;
+	
+		#mint_title {
+	
+			color: white;
+			font-family: Arial, Tahoma, Verdana;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 50px;
+			text-decoration: none;
+			text-align: center;
+		
+			text-shadow: 0px 0px 10px white, 0px 0px 5px blue;
+		
+			// border-style: solid;
+			// border-width: 1px;
+			// border-color: red;
+			// border-radius: 0px;
+		
+			margin: 0px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		
+			@media only screen and (max-width: 599px) {
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* + -------------------------------------------- +
+		Mint / Header Group Style
++ -------------------------------------------- + */
+
+#mint_header_relative_root {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 70px;
+	z-index: 100;
+	
+	@media only screen and (max-width: 599px) {
+		// height: 12vw;
+	}
+
+	// background-color: rgb(71, 7, 127);
+	// border-bottom: 0.1vw solid grey;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-bottom: white;
+	// border-radius: 0px;
+}
+
+#mint_header_relative_root #mint_header_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding-top: 10px;
+	@media only screen and (max-width: 599px) {
+		// padding-top: 0.75vw;
+	}
+
+	width: 100%;
+}
+
+#mint_header_container #mint_header_mark_link {
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	width: 135px;
+	height: 48px;
+	margin-left: 26px;
+	margin-right: auto;
+
+  @media only screen and (max-width: 599px) {
+		// width: 27vw;
+		// height: 10vw;
+    margin-left: 15px;
+	}
+}
+
+#mint_header_container #mint_header_mark_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#mint_header_container #mint_header_wallet_link {
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	cursor: pointer;
+
+	margin-left: auto;
+	margin-right: 30px;
+
+  @media only screen and (max-width: 599px) {
+    margin-right: 10px;
+	}
+}
+
+#mint_header_container #mint_header_connect_link {
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	cursor: pointer;
+
+	width: 140px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: 30px;
+
+  @media only screen and (max-width: 599px) {
+		// width: 21vw;
+		// height: 8.1vw;
+    margin-right: 10px;
+	}
+}
+
+#mint_header_container #mint_header_connect_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#mint_header_container #mint_header_menu_link_id {
+	cursor: pointer;
+	
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	width: 41px;
+	height: 41px;
+	margin-right: 28px;
+  margin-left: 0px;
+
+  @media only screen and (max-width: 599px) {
+		// width: 9vw;
+		// height: 9vw;
+    margin-right: 15px;
+	}
+}
+
+#mint_header_container #mint_header_menu_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#mint_header_menu_dropdown_content {
+ 	display: none;
+	position: absolute;
+	right: 30px;
+	top: 52px;
+	@media only screen and (max-width: 599px) {
+		// top: 9.7vw;
+    right: 18px;
+	}
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+	// must be located
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	border-radius: 5%;
+
+	z-index: 2;
+
+	background-color: #f1f1f1;
+	// background-color: gray;
+}
+
+#mint_header_menu_dropdown_content a {
+	color: black;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: left;
+
+	display: block;
+	padding: 6px 15px;
+
+	@media only screen and (max-width: 599px) {
+		// font-size: 4.5vw;
+		// padding: 1.2vw 2.9vw;
+	}
+}
+
+#mint_header_menu_dropdown_content a:hover {
+	background-color: #ddd;
+	text-decoration-line: underline;
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* + -------------------------------------------- +
+		Mint / Action Group Style
++ -------------------------------------------- + */
+#mint_action_container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+}
+
+#mint_action_container #mint_action_grid_desc {
+  display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: flex-end;
+
+  // width: 520px;
+  height: 630px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+	// background-color: rgba(52, 20, 146, 0.7);
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: rgb(93, 23, 235);
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    align-items: center;
+
+    // height: 1070px;
+    height: 100%;
+  }
+}
+
+#mint_action_container #mint_action_grid_run {
+  display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: flex-start;
+
+  // width: 520px;
+  height: 630px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: auto;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+	// background-color: rgba(52, 20, 146, 0.7);
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: rgb(93, 23, 235);
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    align-items: center;
+
+    height: 100%;
+  }
+}
+
+/* + -------------------------------------------- +
+		Mint / Action - Desc Group Style
++ -------------------------------------------- + */
+
+#mint_action_desc_container {
+  // display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// align-items: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  margin-top: 20px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    position: relative;
+    
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    padding: 0px;
+  }
+}
+
+#mint_action_desc_container #mint_action_desc_content_1 {
+  display: block;
+  width: 460px;
+
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: center;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+#mint_action_desc_container #mint_action_desc_content_2 {
+  display: block;
+  width: 460px;
+
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: center;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* + -------------------------------------------- +
+		Mint / Action - Run Group Style
++ -------------------------------------------- + */
+
+#mint_action_run_container {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    margin-right: 10px;
+
+    padding: 0px;
+  }
+}
+
+#mint_action_run_container #mint_action_run_content {
+
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  width: 350px;
+  height: 630px;
+
+  background-color: rgba(52, 20, 146, 0.7);
+
+	// must be located in here
+	border-style: solid;
+	border-width: 6px;
+	border-color: rgb(93, 23, 235);
+	border-radius: 30px;
+
+  @media only screen and (max-width: 599px) {
+    width: 84vw;
+    height: 100%;
+
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+}
+
+#mint_action_run_container #mint_action_run_photo {
+  width: 250px;
+  height: 250px;
+
+  background-color: rgb(71, 7, 127);
+
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+	// must be located in here
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(71, 7, 127);
+	// border-color: white;
+	border-radius: 10px;
+
+  @media only screen and (max-width: 599px) {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+#mint_action_run_container #mint_action_run_photo_nft {
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+
+	// must be located in here
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(71, 7, 127);
+	// border-color: white;
+	border-radius: 10px;
+}
+
+#mint_action_run_container #mint_action_run_unit_bar_wrapper_1 {
+  display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+
+  width: 300px;
+  height: 30px;
+
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+
+  text-shadow: 0px 0px 10px white, 0px 0px 5px blue;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 400px) {
+    width: 65vw;
+  }
+}
+
+#mint_action_run_container #mint_action_run_unit_1_1 {
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+#mint_action_run_container #mint_action_run_splitter_bar_wrapper_1 {
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+  width: 250px;
+  height: 26px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  padding: 0px;
+
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mint_action_run_container #mint_action_run_splitter_bar_1 {
+	width: 100%;
+	height: 15px;
+
+  margin: 0px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: blue;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_unit_bar_wrapper_2 {
+  display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+
+  width: 230px;
+  height: 30px;
+
+  color: rgb(200, 200, 200);
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 400px) {
+    width: 60vw;
+  }
+}
+
+#mint_action_run_container #mint_action_run_unit_2_1{
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+#mint_action_run_container #mint_action_run_unit_2_2{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+#mint_action_run_container #mint_action_run_unit_bar_wrapper_3 {
+  display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+
+  width: 250px;
+  height: 30px;
+
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 400px) {
+    width: 62vw;
+  }
+}
+
+#mint_action_run_container #mint_action_run_unit_3_1{
+  margin-left: 0px;
+  margin-right: auto;
+
+	font-size: 15px;
+  text-shadow: 0px 0px 10px white, 0px 0px 5px blue;
+}
+
+#mint_action_run_container #mint_action_run_splitter_bar_wrapper_2 {
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+  width: 250px;
+  height: 26px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  padding: 0px;
+
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mint_action_run_container #mint_action_run_splitter_bar_2 {
+	width: 100%;
+	height: 15px;
+
+  margin: 0px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: blue;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_mint_wrapper {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  width: 100%;
+  height: 60px;
+
+  margin-top: 20px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_mint {
+  width: 150px;
+  height: 48px;
+  cursor: pointer;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_wrapper {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+  width: 100%;
+  height: 100px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_plus_wrapper {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  width: 35px;
+  height: 35px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_plus {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_minus_wrapper {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  width: 35px;
+  height: 35px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_minus {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_sol_count_wrapper {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+  // width: 120px;
+  // height: 80px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+}
+
+#mint_action_run_container #mint_action_run_control_sol_count {
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 70px;
+	text-decoration: none;
+	text-align: center;
+
+  vertical-align: middle;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    font-size: 15vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* + -------------------------------------------- +
+		Mint / Note Group Style
++ -------------------------------------------- + */
+
+#mint_wrapper #mint_note_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    margin-top: 1vw;
+    margin-bottom: 15vw;
+  }
+}
+
+#mint_note_relative_root #mint_note_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#mint_note_container #mint_note_content {
+
+  width: 900px;
+
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: center;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    width: 90%;
+    padding-top: 10px;
+
+    font-size: 20px;
+
+    margin: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* + -------------------------------------------- +
+		Mint / Action Second Desc Group Style
++ -------------------------------------------- + */
+
+#mint_wrapper #mint_action_second_desc_relative_root {
+  display: none;
+
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    display: block;
+  }
+}
+
+#mint_action_second_desc_relative_root #mint_action_second_desc_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#mint_action_second_desc_container #mint_action_second_desc_content {
+  width: 900px;
+
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: center;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: red;
+	// border-radius: 0px;
+
+  @media only screen and (max-width: 599px) {
+    width: 90%;
+    font-size: 20px;
+
+    margin: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,1003 @@
+/* + -------------------------------------------- +
+		Landing Group Style
++ -------------------------------------------- + */
+
+#landing_home #landing_luanch_container_video {
+	position: absolute;
+	left: 0%;
+	top: 0vw;
+	width: 100%;
+
+  	@media only screen and (max-width: 599px) {
+		// -webkit-transform: scaleX(2); 
+		// -moz-transform: scaleX(2);
+		width: 140%;
+		margin-left: -40%;
+		// margin-right: -20%;
+	}
+}
+
+#landing_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 3vw;
+	@media only screen and (max-width: 599px) {
+		margin-top: 5vw;
+	}
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_wrapper #landing_solmine_advertisement{
+	position: absolute;
+	left: 15vw;
+	top: 45vw;
+
+	z-index: 10;
+
+	color: white;
+	text-shadow: 0.2vw 0.2vw 0.2vw lightblue;
+
+	font-family: Arial, Tahoma, Verdana;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 4.0vw;
+	text-decoration: none;
+	// text-align: left;
+
+  	@media only screen and (max-width: 599px) {
+		left: 6vw;
+		top: 66vw;
+		font-size: 5.0vw;
+	}
+}
+
+/* + -------------------------------------------- +
+		Landing / Header Group Style
++ -------------------------------------------- + */
+
+#landing_header_relative_root {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 5vw;
+	z-index: 100;
+	
+	@media only screen and (max-width: 599px) {
+		height: 12vw;
+	}
+
+	// background-color: rgb(71, 7, 127);
+	// border-bottom: 0.1vw solid grey;
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-bottom: white;
+	// border-radius: 0px;
+}
+
+#landing_header_relative_root #landing_header_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding-top: 0.8vw;
+	@media only screen and (max-width: 599px) {
+		padding-top: 0.75vw;
+	}
+
+	width: 100%;
+}
+
+#landing_header_container #landing_header_mark_link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	width: 10vw;
+	height: 3.5vw;
+	@media only screen and (max-width: 599px) {
+		width: 27vw;
+		height: 10vw;
+	}
+
+	margin-left: 2vw;
+	margin-right: auto;
+}
+
+#landing_header_container #landing_header_mark_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_header_container #landing_header_luanch_link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	width: 8vw;
+	height: 3vw;
+	@media only screen and (max-width: 599px) {
+		width: 21vw;
+		height: 8.1vw;
+	}
+
+	margin-left: auto;
+	margin-right: 2vw;
+}
+
+#landing_header_container #landing_header_luanch_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_header_container #landing_header_menu_link_id {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+	
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	width: 3vw;
+	height: 3vw;
+	@media only screen and (max-width: 599px) {
+		width: 9vw;
+		height: 9vw;
+	}
+
+	margin-right: 2vw;
+}
+
+#landing_header_container #landing_header_menu_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 4px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_header_menu_dropdown_content {
+  	display: none;
+  	position: absolute;
+  	right: 2vw;
+	top: 3.9vw;
+  	@media only screen and (max-width: 599px) {
+		top: 9.7vw;
+	}
+
+	border-style: solid;
+	border-width: 0.2vw;
+	border-color: gray;
+	border-radius: 5%;
+
+	min-width: 10vw;
+  	z-index: 2;
+
+	background-color: #f1f1f1;
+	// background-color: gray;
+}
+
+#landing_header_menu_dropdown_content a {
+  color: black;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5vw;
+  	text-decoration: none;
+	text-align: left;
+
+  	display: block;
+  	padding: 0.4vw 1.0vw;
+
+  	@media only screen and (max-width: 599px) {
+		font-size: 4.5vw;
+		padding: 1.2vw 2.9vw;
+	}
+}
+
+#landing_header_menu_dropdown_content a:hover {
+	background-color: #ddd;
+	text-decoration-line: underline;
+	color: blue;
+}
+
+/* + -------------------------------------------- +
+		Landing / Luanch Group Style
++ -------------------------------------------- + */
+
+#landing_wrapper #landing_luanch_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+#landing_luanch_relative_root #landing_luanch_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_luanch_container #landing_luanch_atropos {
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: white;
+	// border-radius: 10px;
+
+	@media only screen and (max-width: 599px) {
+		width: 84vw !important;
+		height: 70vw !important;
+	}
+}
+
+#landing_luanch_container #landing_luanch_link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 20vw;
+	height: 8vw;
+	@media only screen and (max-width: 599px) {
+		width: 30vw;
+		height: 12vw;
+	}
+
+	z-index: 10;
+
+	margin-top: 2vw;
+	
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: red;
+	// border-radius: 10px;
+}
+
+#landing_luanch_container #landing_luanch_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_luanch_container #landing_luanch_star_1 {
+	width: 7%;
+	height: auto;
+	position: absolute;
+	left: 5%;
+	top: 60%;
+	transform: rotate(-10deg);
+}
+
+#landing_luanch_container #landing_luanch_star_2 {
+	width: 5%;
+	height: auto;
+	position: absolute;
+	left: 10%;
+	top: 3%;
+}
+
+#landing_luanch_container #landing_luanch_star_3 {
+	width: 5%;
+	height: auto;
+	position: absolute;
+	right: 20%;
+	top: 14%;
+	transform: rotate(20deg);
+}
+
+#landing_luanch_container #landing_luanch_star_4 {
+	width: 4%;
+	height: auto;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: rotate(40deg);
+}
+
+/* + -------------------------------------------- +
+		Landing / What Group Style
++ -------------------------------------------- + */
+
+#landing_wrapper #landing_what_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	margin-top: 4vw;
+	@media only screen and (max-width: 599px) {
+		margin-top: 14vw;
+	}
+}
+
+#landing_what_relative_root #landing_what_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	@media only screen and (max-width: 599px) {
+		display: block;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 10px;
+}
+
+#landing_what_container #landing_what_desc_parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	word-break: break-word;
+
+	width: 40%;
+	min-width: 40%;
+  	@media only screen and (max-width: 599px) {
+		width: 70%;
+		min-width: 70%;
+
+		padding-left: 2vw;
+		z-index: 50;
+	}
+	
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_what_desc_parent #landing_what_desc_title {
+	font-weight: 900;
+	font-size: 3vw;
+  	@media only screen and (max-width: 599px) {
+		font-size: 6vw;
+
+		position: absolute;
+		top: -10vw;
+		left: 0vw;
+		width: 100%;
+		// left: 0vw;
+		// right: 100vw;
+		text-align: center;
+
+		z-index: 50;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: green;
+	// border-radius: 10px;
+}
+
+#landing_what_desc_parent #landing_what_desc_content {
+	font-size: 2vw;
+  	@media only screen and (max-width: 599px) {
+		font-size: 4.2vw;
+		z-index: 50;
+	}
+}
+
+#landing_what_container #landing_what_mark_image {
+	width: 40%;
+	max-width: 40%;
+	height: auto;
+  	@media only screen and (max-width: 599px) {
+		width: 50%;
+		max-width: 50%;
+
+		position: absolute;
+		right: 2.0vw;
+		top: 3vw;
+		z-index: 40;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_what_container #landing_what_left_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_what_container #landing_what_middle_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_what_container #landing_what_right_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+/* + -------------------------------------------- +
+		Landing / How Group Style
++ -------------------------------------------- + */
+
+#landing_wrapper #landing_how_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	margin-top: 12vw;
+	@media only screen and (max-width: 599px) {
+		margin-top: 14vw;
+	}
+}
+
+#landing_how_relative_root #landing_how_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	@media only screen and (max-width: 599px) {
+		display: block;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 10px;
+}
+
+#landing_how_container #landing_how_desc_parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	word-break: break-word;
+
+	width: 40%;
+	min-width: 40%;
+  	@media only screen and (max-width: 599px) {
+		width: 70%;
+		min-width: 70%;
+
+		right: 0vw;
+		margin-left: auto;
+		padding-right: 2vw;
+		z-index: 50;
+	}
+	
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_how_desc_parent #landing_how_desc_title {
+	font-weight: 900;
+	font-size: 3vw;
+  	@media only screen and (max-width: 599px) {
+		font-size: 6vw;
+
+		position: absolute;
+		top: -10vw;
+		left: 0vw;
+		width: 100%;
+		// left: 0vw;
+		// right: 100vw;
+		text-align: center;
+
+		z-index: 50;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: green;
+	// border-radius: 10px;
+}
+
+#landing_how_desc_parent #landing_how_desc_content {
+	font-size: 2vw;
+  	@media only screen and (max-width: 599px) {
+		font-size: 4.2vw;
+		z-index: 50;
+	}
+}
+
+#landing_how_container #landing_how_mark_image {
+	width: 40%;
+	max-width: 40%;
+	height: auto;
+  	@media only screen and (max-width: 599px) {
+		width: 50%;
+		max-width: 50%;
+
+		position: absolute;
+		left: 2.0vw;
+		top: 3vw;
+		z-index: 40;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_how_container #landing_how_left_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_how_container #landing_how_middle_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_how_container #landing_how_right_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_how_container #landing_how_star_1 {
+	width: 9%;
+	height: auto;
+	position: absolute;
+	left: 43%;
+	top: 8%;
+	@media only screen and (max-width: 599px) {
+		width: 6%;
+		left: 45%;
+		top: 15%;
+	}
+}
+
+#landing_how_container #landing_how_star_2 {
+	width: 5%;
+	height: auto;
+	position: absolute;
+	left: 35%;
+	top: 25%;
+	@media only screen and (max-width: 599px) {
+		width: 4%;
+		left: 37%;
+		top: 30%;
+	}
+}
+
+#landing_how_container #landing_how_star_3 {
+	width: 5%;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	@media only screen and (max-width: 599px) {
+		width: 4%;
+		left: 50%;
+		top: 80%;
+	}
+}
+
+#landing_how_container #landing_how_star_4 {
+	width: 10%;
+	height: auto;
+	position: absolute;
+	left: 8%;
+	top: -23%;
+	@media only screen and (max-width: 599px) {
+		width: 7%;
+		left: 5%;
+		top: -5%;
+	}
+}
+
+/* + -------------------------------------------- +
+		Landing / NFT Group Style
++ -------------------------------------------- + */
+
+#landing_wrapper #landing_nft_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	margin-top: 20vw;
+	@media only screen and (max-width: 599px) {
+		margin-top: 16vw;
+	}
+}
+
+#landing_nft_relative_root #landing_nft_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	@media only screen and (max-width: 599px) {
+		display: block;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: red;
+	// border-radius: 10px;
+}
+
+#landing_nft_container #landing_nft_desc_parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	font-family: Arial, Tahoma, Verdana;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	word-break: break-word;
+
+	width: 40%;
+	min-width: 40%;
+  	@media only screen and (max-width: 599px) {
+		width: 70%;
+		min-width: 70%;
+
+		padding-left: 2vw;
+		z-index: 50;
+	}
+	
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_nft_desc_parent #landing_nft_desc_title {
+	font-weight: 900;
+	font-size: 3vw;
+  	@media only screen and (max-width: 599px) {
+		font-size: 6vw;
+
+		position: absolute;
+		top: -12vw;
+		left: 0vw;
+		width: 100%;
+		// left: 0vw;
+		// right: 100vw;
+		text-align: center;
+
+		z-index: 50;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: green;
+	// border-radius: 10px;
+}
+
+#landing_nft_desc_parent #landing_nft_desc_content {
+	font-size: 2vw;
+  	@media only screen and (max-width: 599px) {
+		font-size: 4.2vw;
+		z-index: 50;
+	}
+}
+
+#landing_nft_container #landing_nft_mark_image {
+	width: 40%;
+	max-width: 40%;
+	height: auto;
+  	@media only screen and (max-width: 599px) {
+		width: 50%;
+		max-width: 50%;
+		
+		position: absolute;
+		right: 2.0vw;
+		top: 26vw;
+		z-index: 40;
+	}
+
+	// border-style: solid;
+	// border-width: 1px;
+	// border-color: white;
+	// border-radius: 10px;
+}
+
+#landing_nft_container #landing_nft_left_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_nft_container #landing_nft_middle_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_nft_container #landing_nft_right_side {
+	width: 10%;
+  	@media only screen and (max-width: 599px) {
+		width: 0%;
+	}
+
+	// border-style: solid;
+	// border-width: 10px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_nft_container #landing_nft_star_1 {
+	width: 25vw;
+	height: auto;
+	position: absolute;
+	right: 5vw;
+	top: -20vw;
+  	@media only screen and (max-width: 599px) {
+		width: 20vw;
+		right: 8vw;
+		top: 10vw;
+	}
+}
+
+#landing_nft_container #landing_nft_star_2 {
+	width: 10%;
+	height: auto;
+	position: absolute;
+	left: 8%;
+	top: 10%;
+	transform: rotate(20deg);
+  	@media only screen and (max-width: 599px) {
+		width: 7%;
+		left: 5%;
+		top: 5%;
+	}
+}
+
+#landing_nft_container #landing_nft_star_3 {
+	width: 15%;
+	height: auto;
+	position: absolute;
+	left: 8%;
+	top: 50%;
+	transform: rotate(-10deg);
+  	@media only screen and (max-width: 599px) {
+		width: 10%;
+		left: 3%;
+		top: 80%;
+	}
+}
+
+#landing_nft_container #landing_nft_mint_link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: white;
+	// border-radius: 10px;
+
+	width: 20%;
+	height: auto;
+
+	position: absolute;
+	left: 40%;
+	top: 85%;
+
+  	@media only screen and (max-width: 599px) {
+		top: 95%;
+
+		width: 30%;
+		height: auto;
+		left: 35%;
+	}
+}
+
+#landing_nft_container #landing_nft_mint_image {
+	width: 100%;
+	height: auto;
+}
+
+
+/* + -------------------------------------------- +
+		Landing / Bottom Group Style
++ -------------------------------------------- + */
+
+#landing_wrapper #landing_bottom_relative_root {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 40vw;
+
+	background-color: rgb(71, 7, 127);
+
+	margin-top: 14vw;
+	@media only screen and (max-width: 599px) {
+		margin-top: 14vw;
+		height: 50vw;
+	}
+}
+
+#landing_bottom_relative_root #landing_bottom_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 20px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
+
+#landing_bottom_container #landing_bottom_image {
+	width: 100%;
+	height: 100%;
+}
+
+#landing_bottom_container #landing_bottom_luanch_link {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: red;
+	// border-radius: 10px;
+
+	width: 20vw;
+	height: 8vw;
+
+	position: absolute;
+	left: 40vw;
+	top: 16vw;
+	@media only screen and (max-width: 599px) {
+		top: 21vw;
+
+		width: 30vw;
+		height: 12vw;
+		left: 35vw;
+	}
+}
+
+#landing_bottom_container #landing_bottom_luanch_image {
+	width: 100%;
+	height: 100%;
+
+	// border-style: solid;
+	// border-width: 2px;
+	// border-color: blue;
+	// border-radius: 10px;
+}
